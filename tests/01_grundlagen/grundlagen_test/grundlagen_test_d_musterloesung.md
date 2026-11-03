@@ -1,0 +1,221 @@
+# Musterlösung: Grundlagen-Test – Version D (KI/ML und Python)
+
+- Gesamtpunkte: 25
+- Theorie: 17,5 Punkte
+- Praxis: 7,5 Punkte
+
+## Teil A: Theorie (17,5 Punkte)
+
+### Aufgabe A1: Konzepte rund um KI (6 Punkte)
+
+<div style="background-color: #f6f8fa; padding: 10px 12px; border-radius: 6px; border: 1px solid #e1e4e8;">
+**Aufgabenstellung:**
+
+
+Erkläre folgende Begriffe und gib zu jedem ein Beispiel:
+
+<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; font-size: 11pt;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Begriff</th>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Erklärung</th>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Beispiel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">KI</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Machine Learning</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Neuronale Netze</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;"></td>
+    </tr>
+  </tbody>
+</table>
+
+Musterlösung:
+
+<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; font-size: 11pt;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Begriff</th>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Erklärung</th>
+      <th style="border: 1px solid #000000; padding: 6px 10px; background-color: #dde3ea; text-align: left; font-weight: bold;">Beispiel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">KI</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Übergeordnetes Konzept für Maschinen, die Aufgaben intelligent lösen oder sich verhalten.</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Automatische Fehlerdiagnose in Fabriken.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Machine Learning</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Teilbereich der KI, bei dem Algorithmen aus Beispieldaten automatisch Regeln ableiten.</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Kreditvergabe-Entscheidungen basierend auf historischen Kreditnehmer-Daten.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Neuronale Netze</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Neuronale Netze mit vielen Schichten, die komplexe, nichtlineare Muster lernen.</td>
+      <td style="border: 1px solid #000000; padding: 6px 10px; text-align: left; vertical-align: top;">Automatische Handschrifterkennung bei Posteingangsblöcken.</td>
+    </tr>
+  </tbody>
+</table>
+
+Punktevergabe:
+- Pro Zeile 2 Punkte: 1 Punkt Erklärung, 1 Punkt Beispiel.
+
+</div>
+
+### Aufgabe A2: Hart kodiert vs. adaptiv (3 Punkte)
+
+<div style="background-color: #f6f8fa; padding: 10px 12px; border-radius: 6px; border: 1px solid #e1e4e8;">
+**Aufgabenstellung:**
+
+
+1. Unterscheide in 2-4 Sätzen: Was ist der Unterschied zwischen starr programmierten Systemen und Systemen, die lernen? (2 Punkte)
+2. Nenne zur Unterscheidung jeweils ein Beispiel. (1 Punkt)
+
+Musterlösung:
+
+1. Starr programmierte Systeme folgen unveränderlichen Regeln, die einmal geschrieben wurden. Lernende Systeme beobachten Daten und stellen Regeln selbst auf - sie passen sich also an neue Situationen an. Der Unterschied: Das eine ist statisch, das andere ist dynamisch.
+
+2. Starr: "Wenn Note > 4.0, dann Durchfall." Lernend: Modell lernt aus hunderten von Notenverlauf-Beispielen, welche Kombination von Lernstunden und Anwesenheit zu guten Noten führt.
+
+Punktevergabe:
+- 2 Punkte: Unterschied klar (starr/unverändert vs. adaptiv/lernend).
+- 1 Punkt: Je ein passendes Beispiel für Kategorie.
+
+</div>
+
+### Aufgabe A3: Daten in Training und Prüfung (5,5 Punkte)
+
+<div style="background-color: #f6f8fa; padding: 10px 12px; border-radius: 6px; border: 1px solid #e1e4e8;">
+**Aufgabenstellung:**
+
+
+Szenario: Ein Unternehmen möchte Studierenden-Noten basierend auf Lernstunden, Anwesenheit und bearbeiteten Übungen vorhersagen.
+
+1. Begründe, warum eine Aufteilung der Daten in Training und Test notwendig ist. (2 Punkte)
+2. Was sind labeled vs. unlabeled Data in diesem Kontext? Gib je ein Beispiel. (2 Punkte)
+3. Welche Fehlerquellen entstehen, wenn Test-Beispiele (Noten) während des Trainings benutzt werden? (1,5 Punkte)
+
+Musterlösung:
+
+1. Die Aufteilung stellt sicher, dass das Modell Noten für neue, unbekannte Studierende fair vorhersagen kann. Mit getrennten Testdaten prüft man die echte Vorhersagekraft. Sonst könnte das Modell die Antworten nur auswendig lernen.
+
+2. labeled Data: Ein Datensatz mit (5 Lernstunden, 90% Anwesenheit, 25 Übungen) -> Note 1,7. unlabeled Data: Ein neuer Studierender mit (6 Lernstunden, 85%, 30 Übungen), aber wir kennen die Note noch nicht - das Modell soll vorhersagen.
+
+3. Wenn Test-Noten beim Training verwendet werden, lernt das Modell die Lösung auswendig. MSE wird künstlich niedrig, R2 künstlich hoch. In der Praxis würden Vorhersagen für echte neue Studierende dann deutlich schlechter.
+
+Punktevergabe:
+- 2 Punkte: Begründung verständlich (echte Vorhersagekraft prüfen).
+- 2 Punkte: klare Definition + Beispiel labeled/unlabeled im Noten-Kontext.
+- 1,5 Punkte: Fehlerquelle klar erkannt (Overfitting, Information Leakage, künstliche Metriken).
+
+</div>
+
+### Aufgabe A4: Menge und Qualität von Daten (3 Punkte)
+
+<div style="background-color: #f6f8fa; padding: 10px 12px; border-radius: 6px; border: 1px solid #e1e4e8;">
+**Aufgabenstellung:**
+
+
+Ein Lehrerteam testet ein Noten-Vorhersage-Modell zweimal:
+- Szenario A: 30 Studierenden-Datensätze
+- Szenario B: 300 Studierenden-Datensätze
+
+Analysiere in 5-7 Sätzen, wie Datenmenge und Datenqualität (z. B. fehlerhafte Anwesenheitsangaben) die Modellgüte bezüglich MSE und R2 verändern. (3 Punkte)
+
+Musterlösung:
+
+- Mit nur 30 Datensätzen kann das Modell nicht alle Lernstile und -erfolgsaspekte erfassen. Es kann zu Überanpassung kommen: hohe Genauigkeit beim Training, aber schlechte Generalisierung.
+- 300 Datensätze zeigen mehr Variation in Lernmustern und Noten. Das Modell lernt bessere, generalisierbare Regeln. MSE bei Testdaten sinkt, R2 steigt.
+- Fehlerhafte Anwesenheitsdaten (z. B. vertauschte Prozente) verfälschen das Verhältnis zwischen Anwesenheit und Note. Das Modell lernt die falsche Korrelation.
+- Daher: Viele Daten allein reichen nicht – auch Datenbestandteile/Qualität ist entscheidend.
+
+Punktevergabe:
+- 1 Punkt: Menge-Effekt erkannt (größere Datenmenge -> bessere Generalisierung).
+- 1 Punkt: Qualitäts-Effekt erkannt (Fehler verzerren Muster).
+- 1 Punkt: Bezug zu MSE und R2, oder Verständnis für praktische Auswirkungen.
+
+</div>
+
+## Teil B: Praxis (7,5 Punkte)
+
+### Aufgabe B1: Datenverarbeitung und Modelltraining (7,5 Punkte)
+
+<div style="background-color: #f6f8fa; padding: 10px 12px; border-radius: 6px; border: 1px solid #e1e4e8;">
+**Aufgabenstellung:**
+
+
+Schreibe den Code handschriftlich oder in sauberem Pseudocode.
+
+Szenario:
+- Dateiname: ../daten/studierende_noten.csv
+- Spalten: lern_stunden, anwesenheit_prozent, übungen_bearbeitet, note
+
+1. Lade die CSV-Datei mit Pandas und zeige die ersten 5 Zeilen. (2 Punkte)
+2. Berechne Durchschnitt, Minimum und Maximum der Noten. (2,5 Punkte)
+3. Teile Daten 80/20, trainiere ein lineares Regressionsmodell und gib MSE und R2 aus. (3 Punkte)
+
+Musterlösung:
+
+</div>
+
+<div style="background-color: #f0f0f0; padding: 10px 14px; border-radius: 6px; font-family: monospace; border-left: 3px solid #cccccc;">
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+
+# 1) Daten laden
+df = pd.read_csv("../daten/studierende_noten.csv")
+print(df.head())
+
+# 2) Kennzahlen
+mean_note = df["note"].mean()
+min_note = df["note"].min()
+max_note = df["note"].max()
+print("Durchschnitt:", mean_note)
+print("Minimum:", min_note)
+print("Maximum:", max_note)
+
+# 3) Train-Test Split, Modell, Metriken
+X = df[["lern_stunden", "anwesenheit_prozent", "uebungen_bearbeitet"]]
+y = df["note"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = LinearRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+print("MSE:", mse)
+print("R2:", r2)
+```
+
+</div>
+
+Punktevergabe:
+- 2 Punkte: CSV korrekt geladen, head() ausgegeben.
+- 2,5 Punkte: mean(), min(), max() auf "note" angewendet.
+- 3 Punkte: 80/20 Split, LinearRegression, MSE und R2 berechnet/ausgegeben.
+
+## Korrekturhinweis für handschriftliche Lösungen
+
+- Fachlogik zählt mehr als syntaktische Perfektion.
+- Verständliche Variablennamen sind akzeptabel, wenn die Logik klar bleibt.
+- Pseudocode oder stichwortartige Code-Fragmente sind akzeptabel, wenn Logik und Schritte klar erkennbar sind.
